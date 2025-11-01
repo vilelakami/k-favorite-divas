@@ -18,4 +18,9 @@ hero-header{
     font-family: 'Amatic SC', sans-serif;
     text-shadow: 2px 2px 2px grey;
 }
-
+@media (max-width: 600px){
+    .name-artists{
+        font-size: 0.5rem;
+        gap: 30px;
+    }
+}
