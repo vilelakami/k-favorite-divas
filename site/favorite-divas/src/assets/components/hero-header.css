@@ -1,0 +1,21 @@
+.hero-section{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+hero-header{
+    position: relative;
+}
+.name-artists{
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    font-size: 0.9rem;
+    font-family: 'Amatic SC', sans-serif;
+    text-shadow: 2px 2px 2px grey;
+}
+
