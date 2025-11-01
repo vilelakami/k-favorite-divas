@@ -1,0 +1,53 @@
+/* O CSS de virar NÃO DEVE CONTER LARGURA/ALTURA, POIS SEU section-cards.css JÁ AS DEFINE! */
+
+/* 1. Container Principal de Animação */
+.diva-card-container {
+    perspective: 1000px;
+    cursor: pointer;
+    /* Remove width/height para que as classes card1, card2 definam */
+}
+
+/* 2. O "Envelope" que vira */
+.diva-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.2s ease; 
+    transform-style: preserve-3d; 
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* 3. A Virada */
+.diva-card-inner.is-flipped {
+    transform: rotateY(180deg);
+}
+
+/* 4. Frente (Herda a imagem de fundo do seu CSS original) */
+.diva-card-front,
+.diva-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; 
+    border-radius: 20px;
+    /* A imagem de fundo VEM de .card1, .card2, etc. (seu CSS) */
+}
+/* 5. Verso (Biografia) */
+.diva-card-back {
+    background-color: grey; /* Fundo vibrante para o verso */
+    transform: rotateY(180deg);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    font-family: 'Amatic SC', sans-serif;
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 0px 0px rgb(63, 61, 61);
+}
+.diva-bio{
+    padding: 20px;
+}
