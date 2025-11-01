@@ -1,5 +1,8 @@
-
-.App main {
-    /* Garante que o conteúdo comece de onde o Hero Header terminou. */
-    min-height: 100vh;
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: black;
+    
 }
