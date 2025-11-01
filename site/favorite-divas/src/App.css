@@ -1,0 +1,5 @@
+
+.App main {
+    /* Garante que o conteúdo comece de onde o Hero Header terminou. */
+    min-height: 100vh;
+}

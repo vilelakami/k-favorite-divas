@@ -1,0 +1,48 @@
+.section-cards{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    gap: 25px;
+}
+.card1,
+.card2,
+.card3,
+.card4{
+    width: 250px;
+    height: 400px;
+    background-color: pink;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.card2{
+    background-image: url('https://billboard-com-br.s3.amazonaws.com/wp-content/uploads/2025/05/08112617/majur.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 280%;
+}
+.card3{
+    background-image: url('https://scontent-gru2-2.xx.fbcdn.net/v/t51.75761-15/462700205_18424700971077772_9085665815618518273_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=tabMLtE0WssQ7kNvwGdOyaW&_nc_oc=Adny87B6gQQWSpRSTcOan_xrDepVMzkohIsTvX92LZ8QgvqSwMCw3kt6WtL2HwlLBHA&_nc_zt=23&_nc_ht=scontent-gru2-2.xx&_nc_gid=RamFB4cKDe6-H8VU4WYnuA&oh=00_AffqrMWBvxFEGPGtxiaWPHlp_18StzkN7P26MfWfGp7dfg&oe=690B4873');
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card4{
+    background-image: url('https://interiornoticias.com/hf-conteudo/uploads/posts/2025/05/1840_urias-jpg.jpg');
+    background-size: 170%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card1{
+    background-image: url('https://scontent-gru2-2.xx.fbcdn.net/v/t51.75761-15/468484203_18489436261043397_3433209243426649361_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=eGH6-Gz8zfoQ7kNvwFk5Yx1&_nc_oc=AdlmTKr6yA9nknd3pVdSLTMoMIZG--6BcXH9tBxuurdaypHaDhX1B7gLPZB31PJKEtw&_nc_zt=23&_nc_ht=scontent-gru2-2.xx&_nc_gid=i6rwFNBAxUu72XNTi3KEwQ&oh=00_AfcXZU1f9KsFWl4NEpw72sx3Tmw-3FCz7hsgL0jpOhPEfw&oe=690B4F9B');
+    background-size: 130%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
