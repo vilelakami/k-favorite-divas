@@ -2,12 +2,20 @@
     width: 100vw;
     height: 100vh;
     background-color: black;
+    position: relative;
+}
+.section-cards h1{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 3rem;
 }
 .cards{
     display: flex;
     justify-content: center;
     align-items: end;
-    margin: auto;
     width: 100%;
     height: 100%;
     gap: 25px;
@@ -18,9 +26,8 @@
 .card4{
     width: 250px;
     height: 400px;
-    background-color: pink;
     border-radius: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .card2{
     background-image: url('https://billboard-com-br.s3.amazonaws.com/wp-content/uploads/2025/05/08112617/majur.jpg');
@@ -45,4 +52,39 @@
     background-size: 130%;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+@media (max-width: 600px){
+    .cards{
+        flex-wrap: wrap;   
+        gap: 0px;
+        margin-top: 10rem;
+    }
+    .section-cards h1{
+        top: -150px;
+        left: 105px;
+        font-size: 2.5rem;
+    }
+    .card1,
+    .card2,
+    .card3,
+    .card4{
+        width: 250px;
+        height: 250px;
+        background-color: pink;
+    }
+    .card2{
+        background-size: 180%;
+    }
+    .card3{
+        background-size: 100%;
+    }
+    .card4{
+        background-size: 110%;
+    }
+    .card1{
+        background-image: url('https://portalpopline.com.br/wp-content/uploads/2025/07/pabllo-vittar-novidades-pv7-lancamento-2025.jpg');
+        background-size: 150%;
+    }
+
 }

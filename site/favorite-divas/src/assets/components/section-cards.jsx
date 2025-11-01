@@ -4,8 +4,7 @@ import './section-cards.css'
 function Cards(){
     return(
         <section className="section-cards">
-            <div className="title">
-            </div>
+            <h1>BIOGRAPHY</h1>
             <span className="cards">
                 <div className="card1"></div>
                 <div className="card2"></div>
