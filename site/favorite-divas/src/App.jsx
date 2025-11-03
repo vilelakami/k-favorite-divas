@@ -3,6 +3,7 @@ import './App.css'
 import HeroHeader from './assets/components/hero-header'
 import Cards from './assets/components/section-cards'
 import Spotify from './assets/components/section-spotify'
+import Footer from './assets/components/footer'
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <Cards/>
         <Spotify/>
       </main>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 }
