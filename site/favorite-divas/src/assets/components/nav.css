@@ -1,11 +1,14 @@
 .navbar{
+    border: 1px ssolid white;
     display: flex;
-    justify-content: space-between;
     padding-inline: 30px;
     padding-top: 15px;
     font-family: 'Amatic SC', sans-serif;
     font-weight: 700;
     font-size: 1.2rem;
+    z-index: 9999;
+    position: fixed;
+    gap: 20px;
 }
 a{
     color: white;

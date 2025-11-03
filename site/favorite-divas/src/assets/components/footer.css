@@ -61,11 +61,11 @@
     .links{
         font-size: 0.8rem;
     }
-    .about img{
+    #about img{
         width: 30px;
         height: 30px;
     }
-    .about{
+    #about{
         margin: auto;
         font-size: 0.8rem;
         width: 50%;
