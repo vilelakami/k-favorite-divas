@@ -1,0 +1,60 @@
+.spotify{
+    background-image: url('../images/background-spotify.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 128px;
+    gap: 100px;
+}
+.card-name{
+    line-height: 200%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-name h2{ font-size: 5.5rem;}
+.card-name h1{ font-size: 6rem;}
+.spotify-card img{
+    width: 300px;
+    margin-top: 5rem;
+}
+.logo-spotify{
+    position: absolute;
+    bottom: 30px;
+    left: 9rem;
+}
+.logo-spotify img{
+    width: 50px;
+}
+.logo-spotify img:hover{
+    transform: scale(1.05);
+}
+@media (max-width: 600px){
+    .card{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        gap: 20px;
+        width: 100%;
+    }
+    .card-name h2{ font-size: 1.5rem;}
+    .card-name h1{ font-size: 1rem;}
+    .card-name{
+        line-height: 100%;
+        text-align: center;
+    }
+    .spotify-card img{
+        width: 200px;
+        margin-top: 0px;
+    }
+    .spotify{
+        background-color: black;
+    }
+}

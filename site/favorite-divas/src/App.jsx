@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css'
 import HeroHeader from './assets/components/hero-header'
 import Cards from './assets/components/section-cards'
+import Spotify from './assets/components/section-spotify'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       </header>
       <main>
         <Cards/>
+        <Spotify/>
       </main>
     </div>
   );

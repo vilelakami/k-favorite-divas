@@ -1,13 +1,13 @@
 .section-cards{
-    width: 100vw;
-    height: 100vh;
     background-color: black;
     position: relative;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 2;
 }
 .section-cards h1{
     color: white;
     position: absolute;
-    top: 40px;
     left: 150px;
     font-family: 'Amatic SC', sans-serif;
     font-size: 3rem;
@@ -15,10 +15,10 @@
 .cards{
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
     width: 100%;
-    height: 100%;
     gap: 25px;
+    padding-top: 150px;
 }
 .card1,
 .card2,
@@ -58,7 +58,8 @@
     .cards{
         flex-wrap: wrap;   
         gap: 0px;
-        margin-top: 10rem;
+        margin-top: 160px;
+        padding: 0;
     }
     .section-cards h1{
         top: -150px;

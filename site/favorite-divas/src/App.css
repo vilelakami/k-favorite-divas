@@ -1,8 +1,9 @@
-body,html{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    height: 100%;
-    background-color: black;
-    
+.App{
+    width: 100vw;
+    min-height: 100vh;
+}
+main {
+    padding-top: 100vh; /* Empurra o main para baixo da Hero Header */
+    margin-top: -100vh; /* Puxa o main para o topo para que ele comece a rolar corretamente */
+    position: relative; 
 }

@@ -3,13 +3,13 @@
     height: 100vh;
     background-color: black;
     box-sizing: border-box;
-    
+    position: relative;  
+    z-index: 3;  
 }
-hero-header{
-    position: relative;
-}
+
 .name-artists{
     position: absolute;
+    z-index: 10;
     bottom: 0; 
     width: 100%;
     color: white;
