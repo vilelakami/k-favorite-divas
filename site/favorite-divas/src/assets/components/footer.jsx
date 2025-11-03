@@ -7,7 +7,7 @@ import InstagramName from '../images/instagram.png'
 function Footer(){
     return(
         <section className="footer">
-            <div className="about">
+            <div id="about">
                 <img src={Profile} alt="ícone de 'perfil'" />
                 <p>
                     Hello! My name is Kami
