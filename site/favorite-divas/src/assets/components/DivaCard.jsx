@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import './DivaCard.css'
 
-// Aceita o objeto 'diva' e a classe de layout 'classNameProp'
+// criando a função pra virar a carta, passando como parametro a lista, e a classe
 function DivaCard({ diva, classNameProp }) { 
+    //criando um dicionario 'esta virado', 'nao esta virado' e dando um booleano commo falso
     const [isFlipped, setIsFlipped] = useState(false);
+    //criando uma função pra verificar se a carta nao esta virada
     const handleFlip = () => {
         setIsFlipped(!isFlipped);
     };

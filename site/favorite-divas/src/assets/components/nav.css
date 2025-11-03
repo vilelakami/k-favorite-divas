@@ -1,3 +1,4 @@
+/* nav bar com posição fixa (pra ficar em todo o site) + z-index pra ele ficar acima de tudo tb */
 .navbar{
     border: 1px ssolid white;
     display: flex;

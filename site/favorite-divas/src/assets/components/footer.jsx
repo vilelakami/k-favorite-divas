@@ -6,7 +6,9 @@ import InstagramName from '../images/instagram.png'
 
 function Footer(){
     return(
+        //seção inicial
         <section className="footer">
+            {/* bloco que contém o ícone 'perfil' e minha breve mini-bio */}
             <div id="about">
                 <img src={Profile} alt="ícone de 'perfil'" />
                 <p>
@@ -17,6 +19,7 @@ function Footer(){
                     brazillian Divas.
                     </p>
             </div>
+            {/* div responsável por agrupar os ícones do insta e os links do insta */}
             <div className="instagram-profile">
                 <img src={InstagramName} alt="logo escrito 'instagram" />
                 <span className="links">
@@ -29,6 +32,7 @@ function Footer(){
                     <img src={LogoInsta} alt="logo do instagram" />
                 </a>
             </div>
+            {/* direitos autorais */}
             <h3>2025 &copy; Todos os direitos reservados.</h3>
         </section>
     );

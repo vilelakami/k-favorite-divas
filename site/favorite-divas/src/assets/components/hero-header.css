@@ -1,3 +1,4 @@
+/* height 100vh pra caber a dome + z-index para estar acima das outras seções */
 .hero-section{
     width: 100vw;
     height: 100vh;
@@ -6,7 +7,7 @@
     position: relative;  
     z-index: 3;  
 }
-
+/* trouxe os nomes das artistas em posição absoluta para ficar na posição que eu queria e z-index para ficar acima de tudo */
 .name-artists{
     position: absolute;
     z-index: 10;
@@ -20,6 +21,7 @@
     font-family: 'Amatic SC', sans-serif;
     text-shadow: 2px 2px 2px grey;
 }
+/* usei media query pra diminuir a fonte e o gap */
 @media (max-width: 600px){
     .name-artists{
         font-size: 0.5rem;

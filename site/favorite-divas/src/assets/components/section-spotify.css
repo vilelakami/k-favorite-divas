@@ -33,10 +33,13 @@
 .logo-spotify img{
     width: 50px;
 }
+/* colocando um hover para aumentar a img do spotify+nome */
 .logo-spotify img:hover{
     transform: scale(1.05);
 }
+/* usando media query */
 @media (max-width: 600px){
+    /* fazendo o flex wrap pra nao ficar um do lado do outro e quebrar o layout */
     .card{
         flex-wrap: wrap;
         justify-content: center;
@@ -53,8 +56,5 @@
     .spotify-card img{
         width: 200px;
         margin-top: 0px;
-    }
-    .spotify{
-        background-color: black;
     }
 }
