@@ -4,16 +4,19 @@
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
+    padding: 40px 0px;
     position: relative;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-inline: 128px;
-    gap: 100px;
+    gap: 200px;
 }
 .card-name{
     line-height: 200%;
@@ -23,15 +26,13 @@
 .card-name h1{ font-size: 6rem;}
 .spotify-card img{
     width: 300px;
-    margin-top: 5rem;
 }
 .logo-spotify{
     position: absolute;
-    bottom: 30px;
-    left: 9rem;
+    bottom: 10px;
 }
 .logo-spotify img{
-    width: 50px;
+    width: 100px;
 }
 /* colocando um hover para aumentar a img do spotify+nome */
 .logo-spotify img:hover{
@@ -43,9 +44,7 @@
     .card{
         flex-wrap: wrap;
         justify-content: center;
-        margin: auto;
-        gap: 20px;
-        width: 100%;
+        gap: 30px;
     }
     .card-name h2{ font-size: 1.5rem;}
     .card-name h1{ font-size: 1rem;}
@@ -55,6 +54,5 @@
     }
     .spotify-card img{
         width: 200px;
-        margin-top: 0px;
     }
 }

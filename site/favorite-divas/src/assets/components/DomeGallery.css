@@ -30,7 +30,7 @@ main.sphere-main {
   touch-action: none;
   user-select: none;
   -webkit-user-select: none;
-  background: transparent;
+  background: black;
 }
 
 .stage {
@@ -120,7 +120,7 @@ main.sphere-main {
   z-index: 20;
   pointer-events: none;
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: center;
   padding: var(--viewer-pad);
 }

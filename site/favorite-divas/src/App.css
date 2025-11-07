@@ -1,9 +1,0 @@
-.App{
-    width: 100vw;
-    min-height: 100vh;
-}
-main {
-    padding-top: 100vh; /* Empurra o main para baixo da Hero Header */
-    margin-top: -100vh; /* Puxa o main para o topo para que ele comece a rolar corretamente */
-    position: relative; 
-}
