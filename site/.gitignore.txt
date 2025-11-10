@@ -1,0 +1,24 @@
+	# Dependências do Node (ESTA É A PASTA DE 244MB)
+/node_modules
+/npm-debug.log
+/yarn-error.log
+
+# Diretórios de Build e Produção
+/build
+/dist
+/out
+/package
+
+# Arquivos de Teste, Cache e Configurações Pessoais
+/coverage
+/.nyc_output
+/.cache
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos do Editor (VS Code, Sublime, etc.)
+.vscode/
+.sublime-workspace
+.idea/
