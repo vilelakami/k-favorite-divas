@@ -1,24 +1,27 @@
 .section-cards{
     background-color: black;
-    position: relative;
     width: 100%;
     min-height: 100vh;
     z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0px;
 }
 .section-cards h1{
-    color: white;
-    position: absolute;
-    left: 150px;
+    width: fit-content;
+    color: white;   
     font-family: 'Amatic SC', sans-serif;
     font-size: 3rem;
+    margin: 0;
 }
 .cards{
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100%;
     gap: 25px;
-    padding-top: 150px;
 }
 .card1,
 .card2,
@@ -36,7 +39,7 @@
     background-size: cover;
 }
 .card3{
-    background-image: url('https://scontent-gru2-2.xx.fbcdn.net/v/t51.75761-15/462700205_18424700971077772_9085665815618518273_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=tabMLtE0WssQ7kNvwGdOyaW&_nc_oc=Adny87B6gQQWSpRSTcOan_xrDepVMzkohIsTvX92LZ8QgvqSwMCw3kt6WtL2HwlLBHA&_nc_zt=23&_nc_ht=scontent-gru2-2.xx&_nc_gid=RamFB4cKDe6-H8VU4WYnuA&oh=00_AffqrMWBvxFEGPGtxiaWPHlp_18StzkN7P26MfWfGp7dfg&oe=690B4873');
+    background-image: url('https://cronos-media.sesisenaisp.org.br/api/media/1-0/files?img=img_14_230723_5028915e-24c7-475c-b5d8-6fb8c1054f1c_o.jpg&tipo=p');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -48,7 +51,7 @@
     background-repeat: no-repeat;
 }
 .card1{
-    background-image: url('https://scontent-gru2-2.xx.fbcdn.net/v/t51.75761-15/468484203_18489436261043397_3433209243426649361_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=eGH6-Gz8zfoQ7kNvwFk5Yx1&_nc_oc=AdlmTKr6yA9nknd3pVdSLTMoMIZG--6BcXH9tBxuurdaypHaDhX1B7gLPZB31PJKEtw&_nc_zt=23&_nc_ht=scontent-gru2-2.xx&_nc_gid=i6rwFNBAxUu72XNTi3KEwQ&oh=00_AfcXZU1f9KsFWl4NEpw72sx3Tmw-3FCz7hsgL0jpOhPEfw&oe=690B4F9B');
+    background-image: url('https://conteudo.imguol.com.br/c/entretenimento/85/2022/04/16/pabllo-vittar-e-uma-das-atracoes-do-coachella-2022-1650138717784_v2_3x4.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,16 +59,16 @@
 /* media query para celular/tablet */
 @media (max-width: 600px){
     /* dando flex wrap para nao ficar um do lado do outro  e um gap menor*/
+    .section-cards{
+        padding: 90px 0px;
+        align-items: center;
+    }
     .cards{
         flex-wrap: wrap;   
         gap:  10px;
-        margin-top: 160px;
-        padding: 0;
     }
     /* arrumando posição do titulo e tam */
     .section-cards h1{
-        top: -150px;
-        left: 105px;
         font-size: 2.5rem;
     }
     .card1,

@@ -1,7 +1,6 @@
 /* seção pai */
 .footer{
     width: 100%;
-    min-height: 50vh;
     display: flex;
     flex-direction: column;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
