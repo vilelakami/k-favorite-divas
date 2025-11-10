@@ -22,3 +22,14 @@ Thumbs.db
 .vscode/
 .sublime-workspace
 .idea/
+
+# 3. Arquivos de Cache e IDEs
+.DS_Store
+Thumbs.db
+.cache/
+.vscode/
+
+# 4. Variáveis de Ambiente (MUITO IMPORTANTE POR SEGURANÇA)
+.env
+.env.local
+.env.*.local
